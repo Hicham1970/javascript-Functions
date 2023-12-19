@@ -12,4 +12,4 @@ function add(x, y, myCallBack) {
 // the display function needs one argument , which is the sum
 add(2, 3, display); // call the function add by calling back the display function;
 
-//? So a Callback function is a function used as argument.
+//? So a Callback function is a function (display) used as argument of another function (add)
